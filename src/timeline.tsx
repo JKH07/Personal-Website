@@ -42,9 +42,7 @@ export function Timelinet() {
           <TimelineBody>
             Frontend React internship. I worked on creating and optimizing several pages for a wealth management  website.
           </TimelineBody>
-          <a className="w-40 justify-center" href="/JobShadowing.docx" download>
-  Job Shadowing
-</a>
+          <a href="/JobShadowing.docx" download>Job Shadowing</a>
 
         </TimelineContent>
         
