@@ -7,7 +7,7 @@ import {
   FooterIcon,
 
 } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import {  BsGithub, BsLinkedin} from "react-icons/bs";
 
 export function Footnotet() {
   return (

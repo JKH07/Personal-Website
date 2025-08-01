@@ -1,5 +1,6 @@
 import { Card } from "flowbite-react";
-import AboutCard from "./AboutCard";
+import { AboutCard } from "./AboutCard";
+
 
 export default function About(){
     return(<>
