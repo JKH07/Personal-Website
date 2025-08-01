@@ -19,7 +19,7 @@ export default function About(){
           and contribute </b> to innovative projects in the tech space.
           
           </p>
-        <a className="w-40 justify-center" href="public\CoverLetter.docx" download="CoverLetter.pdf">Cover Letter</a>
+        <a className="w-40 justify-center" href="CoverLetter.docx" download>Cover Letter</a>
     </Card>
      </div>
     <h1 className="text-center mt-5">Certificates</h1>
