@@ -73,3 +73,47 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.min-w-full {
+    min-width: 104.35%;
+}
+/* In your style.css or inside <style> in HTML */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradientShift 6s ease infinite;
+}
+.dotted-arrow {
+  width: 0;
+  height: 30px;
+  border-left: 2px dotted black;
+  margin: 10px auto;
+  margin-top: 0;
+  position: relative;
+}
+h6{
+  font-size: 35px;
+}
+#time{
+  margin-left: 15%;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  #time {
+    margin-left: 0;
+  }
+}
+.min-w-full {
+    min-width: 90%;
+}

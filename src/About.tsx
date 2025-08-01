@@ -4,17 +4,25 @@ import { AboutCard } from "./AboutCard";
 
 export default function About(){
     return(<>
+    <div className="justify-center scroll-smooth" id="about">
     <h1 className="text-center mt-5 ">About Me</h1>
-    <Card href="#" className=" bg-gradient-to-r from-teal-200 to-lime-200 text-gray-900  drop-shadow text-center justify-center ml-60 mt-10 w-200" >
-          <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Noteworthy technology acquisitions 2021
-          </h5>
+    <Card  className=" min-w-[30rem] text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center justify-center mt-10" >
+          
           <p className="font-normal text-gray-700 dark:text-gray-400">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error obcaecati eaque saepe. Necessitatibus reprehenderit beatae nemo reiciendis! Iure delectus, sed mollitia, eius debitis illum inventore voluptatum id nemo, dolorum eligendi.
+         I'm a <b>dedicated and curious learner</b> with a strong passion for exploring the many 
+         dimensions of computer science. My interests particularly lie in <b>artificial intelligence and 
+         machine learning, </b>
+         where I’m constantly seeking to deepen my understanding of how intelligent systems are built 
+         and optimized. Whether it's diving into the math behind algorithms or experimenting 
+         with real-world applications ,I find great excitement in the process of learning and building. 
+         I'm always <b>open to new challenges and opportunities</b> that allow me to <b>grow, collaborate,
+          and contribute </b> to innovative projects in the tech space.
+          
           </p>
+        <a className="w-40 justify-center" href="CoverLetter.pdf" download="CoverLetter.pdf">Cover Letter</a>
     </Card>
-     
-    <h1 className="text-center mt-5">Experience</h1>
+     </div>
+    <h1 className="text-center mt-5">Certificates</h1>
     <AboutCard/>
     </>)
 }

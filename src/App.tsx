@@ -1,17 +1,21 @@
-import About from "./About";
-import { Cardt } from "./Card";
-import { Footnotet } from "./Footnote";
-import NavBarT from "./navbar";
 
-
+import { BrowserRouter, Routes, Route, Link, Navigate} from "react-router-dom";
+import { Home } from "./Home";
+import {Experience }from "./Experience";
 
 export function App() {
   return (
     <>
-    <NavBarT/>
-    <Cardt/>
-    <About/>
-    <Footnotet/>
+    
+    <BrowserRouter basename="/Personal-Website/">
+     
+        
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Experience" element={<Experience />} />
+       <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </BrowserRouter>
     </>
     
   );

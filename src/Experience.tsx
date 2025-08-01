@@ -9,9 +9,20 @@ import {
 } from "flowbite-react";
 import {  BsGithub, BsLinkedin} from "react-icons/bs";
 
-export function Footnotet() {
-  return (
-    <Footer container className="mt-30 min-w-full" >
+import NavBarT from "./navbar";
+import { Skills } from "./Skills";
+
+import { Timelinet } from "./timeline";
+export const Experience: React.FC = () => {
+return(<>
+<div className="">
+    <NavBarT />
+
+<div className="block md:flex justify-center" id="time">
+    <Timelinet/>
+<Skills/>
+</div>
+<Footer container className="mt-30 min-w-full" id="rime">
       
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <FooterCopyright href="#" by="Jana Harb" year={2025} />
@@ -22,5 +33,6 @@ export function Footnotet() {
         </div>
       
     </Footer>
-  );
-}
+</div>
+</>)
+};

@@ -1,7 +1,21 @@
 import 'flowbite';
+
+import { useNavigate } from 'react-router-dom';
 export default function NavBarT() {
+  const navigate = useNavigate();
+
+  const handleEx = () => {
+    
+    navigate('/Experience');
+   
+  };
+  const handleHome = () => {
+    
+    navigate('/');
+   
+  };
   return (
-    <nav className="bg-gradient-to-r from-teal-200 to-lime-200 text-gray-900 fixed w-full z-20 top-0 start-0 drop-shadow">
+    <nav className="text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient fixed w-full z-20 top-0 start-0 drop-shadow">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           
@@ -21,10 +35,12 @@ export default function NavBarT() {
         </div>
         <div className="hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 md:flex-row md:mt-0 md:border-0 ">
-            <li><a href="#" className="block py-2 px-3 text-white rounded ">About</a></li>
-            <li><a  href="my-project\JanaHarbCV.pdf" 
+            <li><a onClick={handleHome} href="#about" className="block py-2 px-3 text-white rounded ">About</a></li>
+            <li><a  href="JanaHarbCV.pdf" 
   download="JanaHarbCV.pdf" className="block py-2 px-3 text-gray-900 ">CV</a></li>
-            <li><a href="#" className="block py-2 px-3 text-gray-900 ">Contact</a></li>
+            <li><a onClick={handleHome} className="block py-2 px-3 text-gray-900 ">Home</a></li>
+            <li><a  onClick={handleEx} className="block py-2 px-3 text-gray-900 ">Experience</a></li>
+
           </ul>
         </div>
       </div>
