@@ -4,11 +4,17 @@ import { Card } from "flowbite-react";
 
 export  function AboutCard() {
  return(
-        <div className="flex mt-10 items-center">
+        <div className="block md:flex mt-10 items-center">
         <Card
-      className="max-w-sm ml-5"
+      className="min-w-[10rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+   
+    text-center justify-center mt-10
+    w-full   "
       imgAlt="alt"
-      imgSrc="public\212.jpg"
+      imgSrc="212.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Semicolon CTF
@@ -18,9 +24,16 @@ export  function AboutCard() {
       </p>
     </Card>
     <Card
-      className="max-w-sm ml-5"
+      className="min-w-[10rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+   
+    text-center justify-center mt-10
+    w-full   "
       imgAlt="alt"
-      imgSrc="public\229.jpg"
+      imgSrc="229.jpg"
+
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
        Cybersecurity Day
@@ -30,9 +43,15 @@ export  function AboutCard() {
       </p>
     </Card>
     <Card
-      className="max-w-sm ml-5"
+     className="min-w-[10rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+   
+    text-center justify-center mt-10
+    w-full   "
       imgAlt="alt"
-      imgSrc=""
+      imgSrc="#"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         React Internship-IDS Fintech

@@ -11,7 +11,7 @@ import {  BsGithub, BsLinkedin} from "react-icons/bs";
 
 export function Footnotet() {
   return (
-    <Footer container className="mt-30 min-w-full" >
+    <Footer container className="w-full min-w-screen  relative mt-10" >
       
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <FooterCopyright href="#" by="Jana Harb" year={2025} />

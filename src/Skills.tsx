@@ -3,9 +3,15 @@ import { Card } from "flowbite-react";
 
 
 export function Skills(){
-    return(<div className="mt-30 ">
-    <h6 className="text-center">Skills</h6>
-    <Card className=" bg-gray-100 relative  mt-10 p-6 ml-15 w-100 h-135 ">
+    return(<div className="min-w-[10rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+   
+    text-center justify-center mt-30
+    w-full   ">
+   <h6>Skills</h6>
+    <Card className=" bg-gray-100 relative  mt-10 p-6  w-100 h-135 ">
      
     <ul>
        <h2><b>Programming Languages</b></h2>

@@ -17,7 +17,13 @@ export function Timelinet() {
   return (
     <>
     
-    <div className="w-100 mt-30 ml-15 text-center">
+    <div className="min-w-[10rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+   
+    text-center justify-center mt-30
+    w-full   ">
     <h6>Experience</h6>
     <Timeline className="mt-10">
       <TimelineItem className=" text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center  rounded-2xl">

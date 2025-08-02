@@ -6,8 +6,18 @@ export default function About(){
     return(<>
     <div className="justify-center scroll-smooth" id="about">
     <h1 className="text-center mt-5 ">About Me</h1>
-    <Card  className=" min-w-[30rem] w-70% text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center justify-center mt-10" >
-          
+<Card
+  className="
+    min-w-[30rem]       
+    max-w-4xl           
+    mx-auto            
+    px-4             
+    text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 
+    bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow
+    text-center justify-center mt-10
+    w-full            
+  "
+>             
           <p className="font-normal text-gray-700 dark:text-gray-400">
          I'm a <b>dedicated and curious learner</b> with a strong passion for exploring the many 
          dimensions of computer science. My interests particularly lie in <b>artificial intelligence and 

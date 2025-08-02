@@ -73,9 +73,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
-.min-w-full {
-    min-width: 104.35%;
-}
+
 /* In your style.css or inside <style> in HTML */
 @keyframes gradientShift {
   0% {
@@ -105,8 +103,4 @@ h6{
   font-size: 35px;
 }
 
-@media (max-width: 800px) {
-  #time {
-    margin-left: 0;
-  }
-}
+
