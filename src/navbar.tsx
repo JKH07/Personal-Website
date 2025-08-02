@@ -36,7 +36,8 @@ export default function NavBarT() {
         <div className="hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
           <ul className="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 md:flex-row md:mt-0 md:border-0 ">
             <li><a onClick={handleHome} href="#about" className="block py-2 px-3 text-white rounded ">About</a></li>
-            <li><a  href="https://baudom-my.sharepoint.com/:b:/g/personal/jmh210_student_bau_edu_lb/EXbE_0Ts_zRKlQob4gnVSvUB9tqMlrMhix6QfJ45Hi_c9Q?e=PF2dOr" className="block py-2 px-3 text-gray-900 ">CV</a></li>
+            <li>        <a className="w-40 justify-center" href="https://baudom-my.sharepoint.com/:b:/g/personal/jmh210_student_bau_edu_lb/EXbE_0Ts_zRKlQob4gnVSvUB9tqMlrMhix6QfJ45Hi_c9Q?e=SMR5fT" >CV</a>
+</li>
             <li><a onClick={handleHome} className="block py-2 px-3 text-gray-900 ">Home</a></li>
             <li><a  onClick={handleEx} className="block py-2 px-3 text-gray-900 ">Experience</a></li>
 
