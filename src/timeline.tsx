@@ -42,7 +42,7 @@ export function Timelinet() {
           <TimelineBody>
             Frontend React internship. I worked on creating and optimizing several pages for a wealth management  website.
           </TimelineBody>
-          <a href="/JobShadowing.docx" download>Job Shadowing</a>
+          <a href="https://baudom-my.sharepoint.com/:w:/g/personal/jmh210_student_bau_edu_lb/EXbzs3v4T8pMkWPAC3YikfAB933_C6e3CbkPZwcfuYoniA?e=6QB1Wn" download>Job Shadowing</a>
 
         </TimelineContent>
         

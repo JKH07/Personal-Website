@@ -6,7 +6,7 @@ export default function About(){
     return(<>
     <div className="justify-center scroll-smooth" id="about">
     <h1 className="text-center mt-5 ">About Me</h1>
-    <Card  className=" min-w-[30rem] text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center justify-center mt-10" >
+    <Card  className=" min-w-[30rem] w-70% text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center justify-center mt-10" >
           
           <p className="font-normal text-gray-700 dark:text-gray-400">
          I'm a <b>dedicated and curious learner</b> with a strong passion for exploring the many 
@@ -19,7 +19,7 @@ export default function About(){
           and contribute </b> to innovative projects in the tech space.
           
           </p>
-        <a className="w-40 justify-center" href="/CoverLetter.docx" download>Cover Letter</a>
+        <a className="w-40 justify-center" href="https://baudom-my.sharepoint.com/:w:/g/personal/jmh210_student_bau_edu_lb/ET2YNjhgSZhHituBexU8rMAB6rzI--96jUEO65fy8mWawg?e=mfw9Hg" >Cover Letter</a>
     </Card>
      </div>
     <h1 className="text-center mt-5">Certificates</h1>

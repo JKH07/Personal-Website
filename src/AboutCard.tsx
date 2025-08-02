@@ -8,7 +8,7 @@ export  function AboutCard() {
         <Card
       className="max-w-sm ml-5"
       imgAlt="alt"
-      imgSrc="212.jpg"
+      imgSrc="public\212.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         Semicolon CTF
@@ -20,7 +20,7 @@ export  function AboutCard() {
     <Card
       className="max-w-sm ml-5"
       imgAlt="alt"
-      imgSrc="229.jpg"
+      imgSrc="public\229.jpg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
        Cybersecurity Day
@@ -32,7 +32,7 @@ export  function AboutCard() {
     <Card
       className="max-w-sm ml-5"
       imgAlt="alt"
-      imgSrc="/images/blog/image-1.jpg"
+      imgSrc=""
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         React Internship-IDS Fintech

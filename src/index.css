@@ -104,16 +104,9 @@ button:focus-visible {
 h6{
   font-size: 35px;
 }
-#time{
-  margin-left: 15%;
-  width: 100%;
-}
 
 @media (max-width: 800px) {
   #time {
     margin-left: 0;
   }
-}
-.min-w-full {
-    min-width: 90%;
 }
