@@ -51,7 +51,7 @@ export  function AboutCard() {
     text-center justify-center mt-10
     w-full   "
       imgAlt="alt"
-      imgSrc="#"
+     imgSrc="baiu.jpeg"
     >
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
         React Internship-IDS Fintech

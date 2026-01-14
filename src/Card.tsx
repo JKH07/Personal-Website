@@ -55,11 +55,7 @@ export function Cardt() {
     </div>
     <div className="w-full md:w-1/2">
       <Carousel pauseOnHover className="w-full h-56 sm:h-64 xl:h-80 2xl:h-96">
-        <img
-          className="object-contain w-full h-full"
-          src="https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Blank&hatColor=White&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
-          alt="Avatar"
-        />
+        
       </Carousel>
     </div>
   </div>
