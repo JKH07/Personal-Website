@@ -1,14 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
-  </head>
-  <body >
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jana's</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d73ee43fae.js" crossorigin="anonymous"></script>
+    <script
+    type="text/javascript"
+    async defer
+    src="//assets.pinterest.com/js/pinit.js"
+></script>
+    
+</head>
+<body>
+    <div class="nav">
+        <h1 class="day"></h1>
+        <div class="switch">
+            <i href="" class="fas fa-star" id="activate"></i>
+            <i class="fa-solid fa-calendar-days"></i>
+            <i class="fa-solid fa-gears"></i>
+        </div>
+    </div>
+    <center>
+    <form action="POST">
+        <div class="calender">
+            <h2 class="day2"></h2>
+        </div>
+    <div class="container">
+        <div class="box-container">
+            <div class="box">
+               <input type="text" placeholder="Task 1" class="task_name">
+               <input type="text" class="task_content">
+            </div>
+            <div class="box">
+                <input type="text" placeholder="Task 2"class="task_name" >
+                <input type="text" class="task_content">
+            </div>
+            <div class="box">
+                <input type="text" placeholder="Task 3" class="task_name">
+                <input type="text" class="task_content">
+                
+            </div>
+    
+        </div>
+        <div class="watch">
+            <input type="text" placeholder="link">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="longbox" >
+            <h2>Control Panel</h2><hr>
+           <div class="box_">
+            <div class="container_buttons">
+                <button class="control">Entry</button>
+                <button class="control">Watch</button>
+                <button class="control">Background</button>
+            </div>
+            <div class="counter">
+                <p>Tasks Done</p>
+                <h1>3</h1>
+                <p>100%</p>
+            </div>
+           </div>
+           <div class="counter" style="height: 100px; margin-top: 0px;">
+            <p>Entry No.</p>
+            <h1>3</h1>
 
-  </body>
+            </div>
+            <i class="fa-solid fa-feather-pointed"></i>
+        </div>
+        
+    </div>
+</form>
+    </center>
+    <div id="pintrest">
+       <!-- <a data-pin-do="embedBoard" data-pin-board-width="500" data-pin-scale-height="300" data-pin-scale-width="200" href="https://www.pinterest.com/user11111111111164gtc/setting/"></a>-->
+    </div>
+</body>
 </html>

@@ -1,0 +1,245 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image:linear-gradient(to right,rgba(47, 47, 47, 0.836) 55%,rgba(170, 170, 170, 0.468)), url(/images/sky.jpg);
+    color: white;
+    font-family:serif;
+    height: 100vh;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+   align-items: center;
+}
+.box-container{
+    position: fixed;
+    width: 700px;
+    height: 100%;
+    display: flex;
+    gap: 1.5rem;
+    margin: 20px;
+    top: 100px;
+    padding: 10px;
+    transform: scale(1.0);
+    .box:nth-child(1){
+        transform: skewY(-30deg);
+        &:hover {
+            margin-top: -10px;
+            transform: skewY(-30deg) scale(1.02);
+        }
+        
+    }
+    .box:nth-child(2){
+        
+        position: relative;
+        margin-top: -60px;
+    
+    }
+    .box:nth-child(3){
+        transform: skewY(30deg);
+        &:hover {
+            margin-top: -10px;
+            transform: skewY(30deg) scale(1.02);
+        }
+    }
+   
+}
+.box-container.active{
+    top: -1000px;
+}
+.box{
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    width: 300px;
+    height: 390px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+	transition: 0.4s ease-in all;
+	
+    background-image: linear-gradient( rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.158));
+    
+}
+.nav h1{
+    padding-bottom: 1.5rem;
+    font-size: bigger;
+    
+}
+
+.longbox{
+    position: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.158));
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    width: 30%;
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    display: flexbox;
+    right:-1000px; 
+    height: 75vh;
+    top: 90px;
+}
+.longbox.active{
+    right: 50px;
+}
+.container_buttons{
+    width: 150px;
+    margin: 10px;
+
+}
+.box_{
+    display: flex;
+    
+}
+hr{
+    border: none;
+    padding: .5px;
+    background-color: white;
+}
+.control{
+    color:white;
+    margin: 10px 30px;
+    width: 200px;
+    height: 50px;
+    border: 1px double transparent;
+    background-color: transparent;
+    border-radius: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    backdrop-filter: blur(1px);
+    
+    transition: 0.4s ease-in all;
+	&:hover {
+        border-color: white;
+    backdrop-filter: blur(2px);
+
+	}
+}
+.task_name{
+    height: 50px;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+}
+input{
+    color: white;
+}
+.nav{
+    display:flex;
+   align-items: center;
+   margin-bottom: 10px;
+   height: 13%;
+}
+.day{
+    margin-left: 2%;
+    margin-right: 75%;
+    background-image: transparent;
+    backdrop-filter: blur(2px);
+align-self: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+    padding-bottom: 0px;
+    height: 1.2rem;
+    margin-bottom: 10px;
+}
+.counter{
+    width: 100px;
+    margin: 20px;
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    height: 150px;
+    position: absolute;
+    border-radius: 10px;
+    margin-left: 270px;
+    
+    background-image: linear-gradient( rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.158));
+    transition: 0.4s ease-in all;
+	&:hover {
+        border-color: white;
+	}
+}
+.extra{
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    width: 100px;
+    margin-left: -200px;
+    padding-left: 0px;
+    backdrop-filter: blur(2px);
+    
+}
+.fa-star, .fa-calendar-days,.fa-gears,.fa-feather-pointed{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: .5rem;
+    transition: 0.4s ease-in all;
+    &:hover{
+        transform: rotate(70deg);
+    }
+}
+
+.switch{
+   justify-content:space-between;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.158));
+   backdrop-filter: blur(2px);
+   padding: 10px;
+   border-radius: 10px;
+}
+#pintrest{
+    z-index: 100;
+    position: fixed;
+    background-color: white;
+    width: 700px;
+    top: 0px;
+    right: -10000px;
+    width: 50%;
+    height: 100%;
+    background-color:rgba(248, 235, 237, 0.806) ;
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    border-left: 1px solid palevioletred;
+   
+}
+.activepins{
+    right: 0px;
+}
+.calender{
+    position: fixed;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.333), rgba(0, 0, 0, 0.158));
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 300px;
+    box-shadow:  rgba(0, 0, 0, 0.181) 0px 8px 16px -8px;
+    display: flexbox;
+    right:-2856px; 
+    height: 50vh;
+    z-index: 100000001;
+}
+.calender.active{
+    right: 50px;
+}
+.task_content{
+    height: 75%;
+    background-color: transparent;
+    border: none;
+    
+}
+.watch{
+    position: fixed;
+    width: 600px;
+    height: 50px;
+    top: -10000px;
+    left: 50px;
+    
+}
+.watch input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.watch.active{
+    top: 300px;
+}
+.fa-search{
+    padding:10px;
+}
