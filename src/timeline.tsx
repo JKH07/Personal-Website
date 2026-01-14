@@ -65,9 +65,21 @@ export function Timelinet() {
         </TimelineContent>
       </TimelineItem>
       <div className="dotted-arrow"></div>
-
+<TimelineItem className=" text-gray-900 focus:ring-lime-200 dark:focus:ring-teal-700 bg-gradient-to-r from-teal-200 to-lime-200 animate-gradient drop-shadow text-center  rounded-2xl">
+        <TimelinePoint icon={HiCalendar} />
+        <TimelineContent>
+          <TimelineTime>August 2025</TimelineTime>
+          <TimelineTitle>AI Summer Camp Volunteer</TimelineTitle>
+          <TimelineBody>
+            Participated in workshops and a competition hosted by semicolon cybersecurity company.
+          </TimelineBody>
+        </TimelineContent>
+      </TimelineItem>
     </Timeline>
+    <div className="dotted-arrow"></div>
+    
     </div>
+    
     </>
   );
 }
